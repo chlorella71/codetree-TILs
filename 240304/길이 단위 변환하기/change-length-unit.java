@@ -3,8 +3,8 @@ public class Main {
         // 여기에 코드를 작성해주세요.
     double ft = 30.48;
     double mi = 160934;
-    System.out.printf("9.2ft = %f", 9.2*ft);
+    System.out.printf("9.2ft = %.1fcm", 9.2*ft);
     System.out.println();
-    System.out.printf("1.3mi = %f", 1.3*mi);
+    System.out.printf("1.3mi = %.1fcm", 1.3*mi);
     }
 }
