@@ -6,13 +6,9 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         int a = in.nextInt(), b = in.nextInt();
-        if (a > b) {
-            System.out.print(a);
-        } else if (b > a) {
-            System.out.print(b);
-        } else {
-            System.out.print(a +", "+ b);
-        }
+        int n = a > b ? a : b;
+    
+            System.out.print(n);
 
     }
 }
