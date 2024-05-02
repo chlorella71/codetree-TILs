@@ -8,11 +8,11 @@ public class Main {
 
         int a = in.nextInt(), b = in.nextInt(), c = in.nextInt();
 
-        if (a < b && a < c) {
+        if (a <= b && a <= c) {
             System.out.print(a);
-        } else if (b < a && b < c) {
+        } else if (b <= a && b <= c) {
             System.out.print(b);
-        } else if (c < a && c < b) {
+        } else if (c <= a && c <= b) {
             System.out.print(c);
         }
     }
