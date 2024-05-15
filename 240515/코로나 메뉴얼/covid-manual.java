@@ -19,7 +19,7 @@ public class Main {
         } else if ((B == 'Y' && b >=37) && (C == 'Y' && c >= 37)) {
                 System.out.print("E");
         } else {
-            System.out.print('N');
+            System.out.print("N");
         }
         
     }
