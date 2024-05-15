@@ -15,6 +15,8 @@ public class Main {
         if ( A == 'Y' && a >=37 ) {
             if ( (B == 'Y' && b >= 37) || (C == 'Y' && c >= 37)) {
                 System.out.print("E");
+            } else {
+                System.out.print("N");
             }
         } else if ((B == 'Y' && b >=37) && (C == 'Y' && c >= 37)) {
                 System.out.print("E");
