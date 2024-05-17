@@ -9,9 +9,9 @@ public class Main {
 
         if ( a >= b && a >= c) {
             if ( b >= c) {
-                System.out.print("b");
+                System.out.print(b);
             } else {
-                System.out.print("c");
+                System.out.print(c);
             }
         } else if ( b > a && b >= c) {
             if ( a >= c) {
