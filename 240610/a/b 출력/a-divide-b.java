@@ -10,7 +10,7 @@ public class Main {
 
         String d = String.format("%.20f", c);
 
-        for ( int i = 0; i <= 21; i++) {
+        for ( int i = 0; i <= 21 && i <= d.length(); i++) {
             System.out.print(d.charAt(i));
         }
     }
