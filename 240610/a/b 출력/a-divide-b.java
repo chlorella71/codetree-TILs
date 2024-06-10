@@ -8,6 +8,10 @@ public class Main {
         double a = in.nextDouble(), b = in.nextDouble();
         double c = a/b;
 
-        System.out.printf("%.20f", c);
+        String d = String.format("%.20f", c);
+
+        for ( int i = 0; i <= 21; i++) {
+            System.out.print(d.charAt(i));
+        }
     }
 }
