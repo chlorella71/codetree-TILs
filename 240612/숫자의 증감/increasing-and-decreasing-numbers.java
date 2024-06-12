@@ -14,7 +14,7 @@ public class Main {
             }
         } else if (c == 'D') {
             for (int i = n; i >= 1; i--) {
-                System.out.print(n + " ");
+                System.out.print(i + " ");
             }
         }
     }
