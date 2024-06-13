@@ -7,11 +7,11 @@ public class Main {
 
         int a = in.nextInt(), b = in.nextInt();
 
-        if ( a % 1 == 0 ) {
+        if ( a % 1 == 0 && a > 0) {
             for (int i = 1; i <= b; i++) {
                 System.out.print(a);
             }
-        } else if ( a < 0) {
+        } else if ( a < 0 ) {
             System.out.print(0);
         }
     }
