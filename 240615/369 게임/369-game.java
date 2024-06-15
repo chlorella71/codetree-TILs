@@ -9,7 +9,7 @@ public class Main {
 
         for (int i = 1; i <= n; i++) {
             if ( i % 3 == 0) {
-                System.out.print(0);
+                System.out.print(0+ " ");
             } else if (i % 3 != 0 ) {
                 if ( i < 10 ) {
                     String a = Integer.toString(i);
