@@ -19,7 +19,7 @@ public class Main {
                     } else { 
                         System.out.print(i + " ");
                     }
-                } else if ( i > 10) {
+                } else if ( i >= 10) {
                     String a = Integer.toString(i);
                     char b = a.charAt(0);
                     char c = a.charAt(1);
