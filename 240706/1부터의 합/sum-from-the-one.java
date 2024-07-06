@@ -14,10 +14,12 @@ public class Main {
 
         for (int i = 1; i <= 100; i++) {
             sum += i;
+            cnt = i;
             if ( sum > n) {
-                cnt = i;
+                
+                System.out.print(cnt);
                 break;
             }
-        }   System.out.print(cnt);
+        }   
     }
 }
