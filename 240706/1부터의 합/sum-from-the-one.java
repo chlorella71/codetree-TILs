@@ -14,8 +14,8 @@ public class Main {
 
         for (int i = 1; i <= 100; i++) {
             sum += i;
-            cnt += 1;
             if ( sum > n) {
+                cnt = i;
                 break;
             }
         }   System.out.print(cnt);
