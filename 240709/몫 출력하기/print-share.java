@@ -7,7 +7,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         int cnt = 0;
-        while (cnt <=3) {
+        while (cnt < 4) {
             int n= in.nextInt();
             cnt++;
             if (n % 2 !=0) {
