@@ -14,7 +14,7 @@ public class Main {
             sum += n;
             cnt++;
             continue;
-            } else if ( n > 20 || n >= 30) {
+            } else if ( n < 20 || n >= 30) {
                 break;
             }
         }
