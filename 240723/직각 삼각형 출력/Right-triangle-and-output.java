@@ -8,7 +8,7 @@ public class Main {
         int n = in.nextInt();
 
         if (n % 2 == 0) {
-            for (int i = 1; i < n; i++) {
+            for (int i = 1; i <= n; i++) {
                 for (int j = 1; j <= i; j++) {
                     System.out.print('*');
                 }
