@@ -15,7 +15,7 @@ public class Main {
             } else {
                 System.out.println(n / 2);
             }
-            if ( cnt >= 3) {
+            if ( cnt >= 4) {
                 break;
             }
         }
