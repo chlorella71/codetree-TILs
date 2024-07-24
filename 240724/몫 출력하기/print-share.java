@@ -11,11 +11,11 @@ public class Main {
             int n= in.nextInt();
             cnt++;
             if (n % 2 !=0) {
-                continue;
+            continue;
             } else {
                 System.out.println(n / 2);
             }
-            if ( cnt >= 4) {
+            if ( cnt >=4) {
                 break;
             }
         }
