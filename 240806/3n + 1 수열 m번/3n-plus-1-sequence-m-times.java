@@ -12,17 +12,17 @@ public class Main {
             int cnt= 0;
 
             while (true) {
-                if ( n % 2 ==0) {
+                if ( n == 1) {
+                    System.out.println(cnt);
+                    break;
+                } else if ( n % 2 ==0) {
                     n /=2;
                 } else {
                     n *=3;
                     n +=1;
                 }
                 cnt++;
-                if ( n == 1) {
-                    System.out.println(cnt);
-                    break;
-                }
+                
             }
         }
     }
