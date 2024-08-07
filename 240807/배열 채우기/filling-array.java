@@ -14,7 +14,12 @@ public class Main {
                     System.out.print(arr[j]+" ");
                 }
                 break;
+            } else if (i == 9) {
+                for (int j = i; j>=0; j--) {
+                    System.out.print(arr[j]+ " ");
+                }
             }
         }
+        
     }
 }
