@@ -17,6 +17,9 @@ public class Main {
             }
             sum += arr[i];
             cnt++;
+            if (i == 9) {
+                System.out.printf("%s %.1f", sum, sum/cnt);
+            }
         }
     }
 }
