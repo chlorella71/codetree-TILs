@@ -12,7 +12,7 @@ public class Main {
 
             if ( arr[i] % 2 !=0) {
                 System.out.print(arr[i]+3+ " ");
-            } else if ( arr[i] % 2 == 0) {
+            } else if ( arr[i] != 0 && arr[i] % 2 == 0) {
                 System.out.print(arr[i]/2+ " ");
             } else if ( arr[i] == 0) {
                 break;
