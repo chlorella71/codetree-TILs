@@ -7,31 +7,35 @@ public class Main {
 
         int n = in.nextInt(), q = in.nextInt();
         int[] arr = new int[105];
-        int[] arr2 = new int[105];
         boolean tf = false;
 
         for( int i = 0; i< n; i++) {
             arr[i] = in.nextInt();
         }
-
-        int q1 = in.nextInt(), a = in.nextInt();
-        System.out.println(arr[a-1]);
-
-        int q2 = in.nextInt(), b = in.nextInt();
-        for (int i = 0; i<n; i++) {
-            if (arr[i] == b) {
-                System.out.println(i+1);
-                tf = true;
-                break;
+        for (int i = 0; i<q; i++) {
+            int x = in.nextInt();
+            if (x == 1) {
+                int a = in.nextInt();
+                System.out.println(arr[a-1]);
+            } else if (x == 2) {
+                int b = in.nextInt();
+                for (int j = 0; j<n; j++) {
+                    if (arr[j] == b) {
+                        System.out.println(j+1);
+                        tf = true;
+                        break;
+                    }
+                }
+                if (tf == false) {
+                    System.out.println(0);
+                }
+            } else if ( x == 3) {
+                int s = in.nextInt(), e = in.nextInt();
+                for (int j = s-1; j < e; j++) {
+                    System.out.print(arr[j]+ " ");
+                }
+                System.out.println();
             }
-        }
-        if (tf == false) {
-            System.out.println(0);
-        }
-
-        int q3 = in.nextInt(), s = in.nextInt(), e = in.nextInt();
-        for (int i = s-1; i < e; i++) {
-            System.out.print(arr[i]+ " ");
         }
     }
 }
