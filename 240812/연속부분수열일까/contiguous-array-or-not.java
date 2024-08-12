@@ -9,7 +9,7 @@ public class Main {
         int[] arr2 = new int[105];
 
         String ans = "No";
-        int cnt =0;
+        int cnt =1;
 
         int n1 = in.nextInt(), n2 = in.nextInt();
 
