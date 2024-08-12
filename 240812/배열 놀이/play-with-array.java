@@ -7,7 +7,6 @@ public class Main {
 
         int n = in.nextInt(), q = in.nextInt();
         int[] arr = new int[105];
-        boolean tf = false;
 
         for( int i = 0; i< n; i++) {
             arr[i] = in.nextInt();
@@ -19,6 +18,7 @@ public class Main {
                 System.out.println(arr[a-1]);
             } else if (x == 2) {
                 int b = in.nextInt();
+                boolean tf = false;
                 for (int j = 0; j<n; j++) {
                     if (arr[j] == b) {
                         System.out.println(j+1);
