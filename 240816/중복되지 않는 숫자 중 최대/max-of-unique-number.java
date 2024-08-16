@@ -11,6 +11,7 @@ public class Main {
 
         int[] arr = new int[1000];
         boolean x = false;
+        int y = -1;
 
         for (int i = 0; i< n; i++) {
             arr[i] = in.nextInt();
@@ -18,10 +19,11 @@ public class Main {
                 max = arr[i];
             } else if (arr[i] == max) {
                 x = true;
+
             }
         }
         if (x == true) {
-            System.out.print(-1);
+            System.out.print(y);
         } else {
             System.out.print(max);
         }
