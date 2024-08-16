@@ -21,7 +21,7 @@ public class Main {
             }
         }
         if (x == true) {
-            System.out.print(x);
+            System.out.print(-1);
         } else {
             System.out.print(max);
         }
