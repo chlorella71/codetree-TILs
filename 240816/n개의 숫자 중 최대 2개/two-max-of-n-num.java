@@ -28,7 +28,7 @@ public class Main {
 
                 if (j == n-1) {
                     arr2[i] = arr[cnt];
-                    arr[cnt] = 0;
+                    arr[cnt] = INT_MIN;
                 }
             }
         }
