@@ -13,6 +13,7 @@ public class Main {
         int[] arr = new int[1000];
         int[] arr2 = new int[1000];
         int idx = 0;
+        int cnt = 0;
         boolean x = false;
         // int y = -1;
 
@@ -20,9 +21,32 @@ public class Main {
             arr[i] = in.nextInt();
         }
 
-        for each( int i : arr.length) {
-        System.out.print(arr[i]);
+        for (int i = 0; i< n; i++) {
+            x = false;
+            for (int j = 0; j< n; j++) {
+                if (i == j) {
+                    continue;
+                }else if (arr[i] == arr[j]) {
+                    x = true;
+                }
+                if (j == n-1 && x == false) {
+                    arr2[idx] = arr[i];
+                    cnt++;
+                }   
+            }
         }
+        if (cnt == 0 ) {
+            System.out.print(-1);
+        } else {
+            for (int i = 0; i <= idx; i++) {
+                if (max < arr2[i]) {
+                    max = arr2[i];
+                }
+            }
+            System.out.print(max);
+        }
+    }
+
 
         // for (int i = 0; i< n; i++) {
         //     for (int j =i+1; j<n; j++) {
@@ -45,5 +69,4 @@ public class Main {
         //     }
         //     System.out.print(max);
         // }
-    }
 }
